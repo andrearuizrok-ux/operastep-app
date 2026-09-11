@@ -1,0 +1,7 @@
+package_version: 1.1.1
+storage_key_new: True
+budget_smart_choice: True
+savings_label: True
+visible_version: True
+workflow_generates_assets: True
+workflow_builds_aab: True

@@ -1,6 +1,25 @@
 {
-  "name":"operastep-app","version":"1.0.0","private":true,"type":"module",
-  "scripts":{"dev":"vite","build":"vite build","cap:sync":"npx cap sync android","android":"npm run build && npx cap sync android && npx cap open android"},
-  "dependencies":{"@capacitor/android":"^8.0.0","@capacitor/camera":"^8.0.0","@capacitor/core":"^8.0.0","@capacitor/local-notifications":"^8.0.0","@capacitor/share":"^8.0.0"},
-  "devDependencies":{"@capacitor/assets":"^3.0.5","@capacitor/cli":"^8.0.0","typescript":"^5.9.2","vite":"^7.0.0"}
+  "name": "operastep-app",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "cap:sync": "npx cap sync android",
+    "android": "npm run build && npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/camera": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/local-notifications": "^8.0.0",
+    "@capacitor/share": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.0"
+  }
 }
