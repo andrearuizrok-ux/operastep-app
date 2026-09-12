@@ -1,7 +1,16 @@
-package_version: 1.1.1
-storage_key_new: True
-budget_smart_choice: True
-savings_label: True
-visible_version: True
-workflow_generates_assets: True
-workflow_builds_aab: True
+OperaStep 1.2.0
+
+VERIFICHE IMPLEMENTATE
+- Versione package: 1.2.0
+- Mantiene i dati della 1.1.1 tramite migrazione sullo stesso storage locale
+- Multi-progetto: Home iniziale "I tuoi progetti"
+- Progetti separati: preventivi, piano, costi e pagamenti indipendenti
+- Stati progetto: Da iniziare / In corso / In pausa / Finito
+- Sezione distinta Progetti completati
+- Suggerimento Smart quando il piano arriva al 100% per segnare il progetto come Finito
+- Modifica preventivi con storico revisioni e sconti
+- Assistente Smart cliccabile con navigazione diretta
+- Tasto Indietro Android con cronologia e doppio tap + conferma per uscire
+- UI aggiornata con icone vettoriali, card e indicatori visuali
+- Slider avanzamento non ricarica più tutta la schermata durante il trascinamento
+- Build GitHub genera APK + AAB
